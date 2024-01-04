@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"blog/x/blog/types"
+	"blog-on-chain/x/blogonchain/types"
 
 	errorsmod "cosmossdk.io/errors"
 	sdk "github.com/cosmos/cosmos-sdk/types"
