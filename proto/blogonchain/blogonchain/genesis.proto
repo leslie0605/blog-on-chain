@@ -1,0 +1,17 @@
+syntax = "proto3";
+package blogonchain.blogonchain;
+
+import "amino/amino.proto";
+import "gogoproto/gogo.proto";
+import "blogonchain/blogonchain/params.proto";
+
+option go_package = "blog-on-chain/x/blogonchain/types";
+
+// GenesisState defines the blogonchain module's genesis state.
+message GenesisState {
+  // params defines all the parameters of the module.
+  Params params = 1 [
+    (gogoproto.nullable) = false,
+    (amino.dont_omitempty) = true
+  ];
+}
