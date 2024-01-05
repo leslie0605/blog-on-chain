@@ -260,6 +260,8 @@ paths:
                 type: string
               body:
                 type: string
+              tag:
+                type: string
       tags:
         - Msg
   /blogonchain.blogonchain.Msg/DeletePost:
@@ -19798,6 +19800,8 @@ definitions:
       title:
         type: string
       body:
+        type: string
+      tag:
         type: string
   blogonchain.blogonchain.MsgCreatePostResponse:
     type: object
