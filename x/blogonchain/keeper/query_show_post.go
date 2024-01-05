@@ -3,7 +3,7 @@ package keeper
 import (
 	"context"
 
-	"blog/x/blog/types"
+	"blog-on-chain/x/blogonchain/types"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
@@ -22,5 +22,5 @@ func (k Keeper) ShowPost(goCtx context.Context, req *types.QueryShowPostRequest)
         return nil, sdkerrors.ErrKeyNotFound
     }
 
-    return &types.QueryShowPostResponse{Post: &post}, nil
+    return &types.QueryShowPostResponse{Post: post}, nil
 }

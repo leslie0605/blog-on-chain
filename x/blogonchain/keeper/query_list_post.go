@@ -3,7 +3,7 @@ package keeper
 import (
 	"context"
 
-	"blog/x/blog/types"
+	"blog-on-chain/x/blogonchain/types"
 
 	"cosmossdk.io/store/prefix"
 	"github.com/cosmos/cosmos-sdk/runtime"

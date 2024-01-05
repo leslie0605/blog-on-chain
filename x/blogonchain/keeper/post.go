@@ -1,7 +1,7 @@
 package keeper
 
 import (
-	"blog/x/blog/types"
+	"blog-on-chain/x/blogonchain/types"
 	"encoding/binary"
 
 	"cosmossdk.io/store/prefix"
