@@ -1,6 +1,10 @@
 # blogonchain
 **blogonchain** is a blockchain built using Cosmos SDK and Tendermint and created with [Ignite CLI](https://ignite.com/cli).
 
+## Consensus-breaking change
+A consensus-breaking change is introduced to the blockchain by adding a tag field in the create-post message.
+
+
 ## Get started
 
 ```
